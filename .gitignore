@@ -1,0 +1,26 @@
+# Environments and secrets (CRITICAL FOR VCS SECURITY)
+.env
+v14 env.txt
+v15 env.txt
+
+# Execution logs
+*_log_run_*.txt
+*.log
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
